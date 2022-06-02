@@ -1,0 +1,1303 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Lexend:wght@400;500&family=Poppins:wght@300;400;500&family=Sora:wght@400;500&family=Ubuntu:wght@500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.blockquote {
+    background-color: white;
+    box-shadow: 0 0 10px lightgrey;
+    height: 16rem;
+    width: 100%;
+}
+
+.blockquote p {
+    padding: 0 2.5em 0;
+}
+
+.blockquote-quoted::before {
+    background-color: #2E5A88;
+    color: white;
+    content: "\201c";
+    display: block;
+    font-size: 5rem;
+    width: 20%;
+}
+
+.blockquote-text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.15rem;
+    line-height: 1.5;
+}
+
+.button-hide {
+    display: none;
+}
+
+.card {
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 22rem;
+    padding: 3rem 2rem 3rem;
+    width: 25%;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card h3 {
+    font-size: 1.4rem;
+    padding-top: 0.5rem;
+}
+
+.card p {
+    font-size: 1.02rem;
+    padding-top: 0.5rem;
+}
+
+.card-images {
+    border-radius: 50%;
+    width: 40%;
+    height: 40%;
+}
+
+.card-container {
+    display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 5rem;
+    width: 80%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.circle {
+    background: #035397;
+    border-radius: 50%;
+    width: 56.3rem;
+    height: 56.3rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: -300px;
+    margin-left: -300px;
+    padding: 60px 20px;
+    top: 0;
+    left: 0;
+}
+
+.circle-text {
+    position: absolute;
+    left: 300px;
+    bottom: 200px;
+}
+
+.fa-angles-right {
+    color: black;
+}
+
+.fas {
+    display: none;
+}
+
+.fa-bars {
+    display: none;
+}
+
+.fa-quote-left {
+    color: #2E5A88;
+    font-size: 3.5rem;
+    margin: 1.5rem 0 1.5rem 1.5rem;
+}
+
+#find-a-job {
+    border-radius: 1.5rem;
+    border: 1px solid #2E5A88;
+    background-color: #2E5A88;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0.8rem 2.1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+
+.find-a-job-div {
+    margin-right: 12rem;
+    margin-bottom: 0.5rem;
+}
+
+#first-section-text-div {
+    width: 30%;
+}
+
+#fourth-section-sign-div {
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 12rem;
+}
+
+.fourth-section-div p {
+    font-size: 2rem;
+}
+
+#fourth-main-container {
+    background-color: #F8F8F8;
+    width: 60%;
+    height: 15rem;
+    margin-top: 5rem;
+    border-right: 4px solid #2E5A88;
+}
+
+header {
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0 10px lightgrey;
+    color: #035397;
+    display: flex;
+    font-family: 'Merriweather', serif;
+    font-size: 13px;
+    height: 10vh;
+    justify-content: space-between;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.hypen-div p {
+    padding-left: 3rem;
+    margin-top: 4rem;
+}
+
+#image {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+#job-hunt-image {
+    /* border-radius: 4px; */
+    width: 45rem
+}
+
+.line {
+    border-bottom: 2px grey solid;
+    margin: 3rem 0;
+    width: 30rem;
+}
+
+#logo {
+    margin-left: 2rem;
+}
+
+#logo h3 {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.navlinks {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navlinks li {
+    margin-right: 2rem;
+    margin-bottom: 0.2rem;
+    list-style: none;
+}
+
+.navlinks li a {
+    color: #035397;
+    /* font-family: 'Lexend', sans-serif; */
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.review {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5rem;
+    margin: 10rem auto 10rem;
+    width: 75%;
+}
+
+.reviews-header h2 {
+    display: none;
+}
+
+.reviews-header h3 {
+    font-size: 2.5rem;
+    padding-top: 8rem;
+    text-align: center;
+}
+
+.right-arrow {
+    padding-left: 10rem;
+}
+
+.rule {
+    border-bottom: 1px solid black;
+}
+
+.search {
+    display: flex;
+}
+
+.search-div {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10rem;
+    margin-top: 7rem;
+}
+
+/* .search-div */
+
+#second {
+    background-color: #F8F8F8;
+    padding-bottom: 6rem;
+}
+
+#second-top-div {
+    padding-top: 2rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+#second-top-div h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.select-box {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.select-box label,
+.select-box2 label {
+    cursor: pointer;
+}
+
+.select-box .option:hover,
+.select-box2 .option2:hover {
+    background-color: lightgray;
+}
+
+.select-box .options-container,
+.select-box2 .options2-container {
+    background-color: white;
+    box-shadow: 0 0 10px lightgrey;
+    border-radius: 8px;
+    color: black;
+    max-height: 0;
+    opacity: 0;
+    order: 1;
+    overflow: hidden;
+    transition: all 0.4s;
+    width: 100%;
+}
+
+.select-box .options-container.active,
+.select-box2 .options2-container.active {
+    max-height: 240px;
+    opacity: 1;
+    overflow-y: scroll;
+}
+
+.select-box .options-container.active+.selected::after,
+.select-box2 .options2-container.active+.selected2::after {
+    top: -6px;
+    transform: rotateX(180deg);
+}
+
+.select-box .options-container::webkit-scrollbar,
+.select-box2 .options2-container::webkit-scrollbar {
+    border-radius: 0 8px 8px 0;
+    width: 8px;
+    background-color: black;
+}
+
+.select-box .options-container::webkit-scrollbar-thumb,
+.select-box2 .options2-container::webkit-scrollbar-thumb {
+    background-color: #525861;
+    border-radius: 0 8px 8px 0;
+}
+
+.select-box .option .radio,
+.select-box2 .option2 .radio {
+    display: none;
+}
+
+.select-box .option,
+.selected {
+    cursor: pointer;
+    padding: 12px 24px;
+}
+
+.select-box2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    width: 400px;
+}
+
+.select-box2 .option2,
+.selected2 {
+    cursor: pointer;
+    padding: 12px 24px;
+}
+
+
+.selected,
+.selected2 {
+    background-color: white;
+    box-shadow: 0 0 10px lightgrey;
+    color: black;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    order: 0;
+    position: relative;
+}
+
+.selected::after,
+.selected2::after {
+    background: url(../images/downward-arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    transition: all 0.4s;
+    width: 32px;
+}
+
+.text-and-image {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 9, 0, 0.3), rgba(0, 9, 0, 0.3)), url(../images/jobsearch2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+
+.modal-container {
+    /* display: none; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 10rem;
+    width: 70%;
+
+    background-color: white;
+    padding: 8rem;
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
+
+.toggle-button {
+    display: none;
+}
+
+#website-first-header h1 {
+    color: white;
+    font-size: 2.2rem;
+}
+
+#website-first-text-content {
+    margin-top: 2.5rem;
+    width: 90%;
+}
+
+#website-first-text-content p {
+    font-size: 1.03rem;
+    line-height: 1.8;
+    color: white;
+}
+
+.wide-card {
+    display: flex;
+    justify-content: space-between;
+    margin: 8rem auto 4rem;
+    width: 90%;
+}
+
+.wide-card-header {
+    margin-top: 6rem;
+    width: 70%;
+}
+
+.wide-card-header h1 {
+    color: #2E5A88;
+    font-size: 3.7rem;
+}
+
+.wide-card-text {
+    margin-top: 2rem;
+    width: 80%;
+}
+
+.wide-card-text p {
+    font-size: 1.1rem;
+    line-height: 1.4;
+}
+
+/* Modal classes */
+/* .close-modal {
+    position: absolute;
+    top: 1.2rem;
+    right: 2rem;
+    font-size: 3.5rem;
+    color: #333;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+
+    background-color: white;
+    margin-top: 20rem;
+    padding: 6rem;
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
+
+.modal h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.modal p {
+    font-size: 1.05rem;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+    z-index: 5;
+} */
+
+/* need to check */
+@media only screen and (max-width: 1100px) and (min-width: 1000px) {
+
+    .card {
+        height: 17rem;
+        margin: 1.5rem auto 0;
+        width: 50%;
+    }
+
+    .card-container {
+        display: block;
+    }
+
+    .card-images {
+        width: 5rem;
+    }
+
+    .circle {
+        width: 52rem;
+        height: 52rem;
+    }
+
+    .fourth-section-div {
+        margin: 2rem 0 3rem 0;
+    }
+
+    .fourth-section-div p {
+        font-size: 1.5rem;
+    }
+
+    #fourth-section-left {
+        margin-left: 3rem;
+    }
+
+    #fourth-section-right {
+        margin-right: 3rem;
+    }
+
+    #fourth-section-sign-div {
+        width: 100%;
+        margin: 0;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    #job-hunt-image {
+        width: 30rem
+    }
+
+    .line {
+        display: none;
+    }
+
+    .review {
+        width: 70%;
+    }
+
+    .search-div {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 8rem;
+        margin-top: 7rem;
+    }
+
+    .select-box {
+        display: flex;
+        flex-direction: column;
+        width: 18rem;
+    }
+
+    .select-box2 {
+        display: flex;
+        flex-direction: column;
+        width: 18rem;
+    }
+
+    #website-first-header {
+        display: none;
+    }
+
+    .wide-card-header h1 {
+        font-size: 2.8rem;
+    }
+
+    .wide-card-text {
+        margin-top: 0.7rem;
+    }
+
+    .wide-card-text p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 1047px) {
+    #find-a-job {
+        border-radius: 1.5rem;
+        border: 1px solid #2E5A88;
+        background-color: #2E5A88;
+        color: #FFFFFF;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 0.8rem 2.1rem;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        transition: transform 80ms ease-in;
+    }
+
+    .find-a-job-div {
+        margin-right: 5rem;
+        margin-bottom: 0.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 1047px) and (min-width: 1000px) {
+    #find-a-job {
+        border-radius: 1.5rem;
+        border: 1px solid #2E5A88;
+        background-color: #2E5A88;
+        color: #FFFFFF;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 0.8rem 2.1rem;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        transition: transform 80ms ease-in;
+    }
+
+    .find-a-job-div {
+        margin-right: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 951.2px) and (min-width: 700px) {
+    .blockquote {
+        margin-top: 2rem;
+    }
+
+    .review {
+        display: block;
+        width: 60%;
+    }
+}
+
+
+
+@media only screen and (max-width: 1400px) and (min-width: 1100px) {
+    .fourth-section-div {
+        margin: 2rem 0 3rem 0;
+    }
+
+    .fourth-section-div p {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    #fourth-section-left {
+        margin-left: 3rem;
+    }
+
+    #fourth-section-right {
+        margin-right: 3rem;
+    }
+
+    #fourth-section-sign-div {
+        width: 100%;
+        margin: 0;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    #job-hunt-image {
+        width: 36rem
+    }
+
+    .review {
+        width: 70%;
+    }
+
+    .rule {
+        display: none;
+    }
+
+    .select-box {
+        display: flex;
+        flex-direction: column;
+        width: 20rem;
+    }
+
+    .select-box2 {
+        display: flex;
+        flex-direction: column;
+        width: 20rem;
+    }
+
+    .wide-card-header h1 {
+        font-size: 2.8rem;
+    }
+
+    .wide-card-text {
+        margin-top: 0.7rem;
+    }
+
+    .wide-card-text p {
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 1256px) and (min-width: 1180px) {
+    #find-a-job {
+        border-radius: 1.5rem;
+        border: 1px solid #2E5A88;
+        background-color: #2E5A88;
+        color: #FFFFFF;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 0.8rem 2.1rem;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        transition: transform 80ms ease-in;
+    }
+
+    .find-a-job-div {
+        margin-right: 8rem;
+        margin-bottom: 0.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 1180px) and (min-width: 1137px) {
+    #find-a-job {
+        border-radius: 1.5rem;
+        border: 1px solid #2E5A88;
+        background-color: #2E5A88;
+        color: #FFFFFF;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 0.8rem 2.1rem;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        transition: transform 80ms ease-in;
+    }
+
+    .find-a-job-div {
+        margin-right: 5rem;
+        margin-bottom: 0.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 1137px) and (min-width: 1100px) {
+    #find-a-job {
+        border-radius: 1.5rem;
+        border: 1px solid #2E5A88;
+        background-color: #2E5A88;
+        color: #FFFFFF;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 0.8rem 2.1rem;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        transition: transform 80ms ease-in;
+    }
+
+    .find-a-job-div {
+        margin-right: 2rem;
+        margin-bottom: 0.5rem;
+    }
+
+}
+
+/* come back */
+@media only screen and (max-width: 1000px) and (min-width: 600px) {
+
+    .circle {
+        width: 48rem;
+        height: 48rem;
+    }
+
+    .fourth-section-div {
+        margin: 2rem 0 3rem 0;
+    }
+
+    .fourth-section-div p {
+        font-size: 1.35rem;
+        text-align: center;
+    }
+
+    #fourth-section-left {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    #fourth-section-right {
+        margin-right: 3rem;
+    }
+
+    #fourth-section-sign-div {
+        width: 100%;
+        margin: 0;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .right-arrow {
+        padding-left: 3rem;
+    }
+
+    .rule {
+        display: none;
+    }
+
+    .search-div {
+        display: none;
+    }
+
+    #second-top-div h1 {
+        font-size: 1.8rem;
+        padding-top: 3rem;
+    }
+
+    #website-first-header {
+        display: none;
+    }
+
+    #website-first-text-content p {
+        font-size: 1rem;
+        margin-top: 3rem;
+    }
+
+    .wide-card-text p {
+        font-size: 1rem;
+    }
+}
+
+
+@media only screen and (max-width: 1100px) and (min-width: 951px) {
+    .blockquote {
+        margin-top: 2rem;
+    }
+
+    #job-hunt-image {
+        width: 33rem
+    }
+
+    .review {
+        display: block;
+        width: 60%;
+    }
+
+    .wide-card-image {
+        padding-left: 0.3rem;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4.5rem;
+    }
+}
+
+@media only screen and (max-width: 999.9px) and (min-width: 922.4px) {
+    .card {
+        height: 19rem;
+        margin: 1.5rem auto 0;
+        width: 50%;
+    }
+
+    .card-container {
+        display: block;
+    }
+
+    .card-images {
+        width: 5rem;
+    }
+
+    #job-hunt-image {
+        width: 33rem
+    }
+
+    .wide-card-header h1 {
+        font-size: 2.6rem;
+    }
+
+    .wide-card-image {
+        padding-left: 0.3rem;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4.5rem;
+    }
+
+    .wide-card-text {
+        margin-top: 0.7rem;
+    }
+
+    .wide-card-text p {
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 922.4px) and (min-width: 900px) {
+    .card {
+        height: 19rem;
+        margin: 1.5rem auto 0;
+        width: 50%;
+    }
+
+    .card-container {
+        display: block;
+    }
+
+    .card-images {
+        width: 5rem;
+    }
+
+    #job-hunt-image {
+        width: 30rem
+    }
+
+    .wide-card-header h1 {
+        font-size: 2.4rem;
+        font-weight: 700;
+    }
+
+    .wide-card-image {
+        padding-left: 0.3rem;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4.5rem;
+    }
+
+    .wide-card-text {
+        margin-top: 0.7rem;
+    }
+
+    .wide-card-text p {
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 899.99px) and (min-width: 874px) {
+    .card {
+        height: 19rem;
+        margin: 1.5rem auto 0;
+        width: 50%;
+    }
+
+    .card-container {
+        display: block;
+    }
+
+    .card-images {
+        width: 5rem;
+    }
+
+    #job-hunt-image {
+        width: 29rem
+    }
+
+    .wide-card-header h1 {
+        font-size: 2.4rem;
+        font-weight: 700;
+    }
+
+    .wide-card-image {
+        padding-left: 0.3rem;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4.5rem;
+    }
+
+    .wide-card-text {
+        margin-top: 0.7rem;
+    }
+
+    .wide-card-text p {
+        font-size: 0.94rem;
+    }
+
+}
+
+@media only screen and (max-width: 873.9px) and (min-width: 860px) {
+    .card {
+        height: 19rem;
+        margin: 1.5rem auto 0;
+        width: 50%;
+    }
+
+    .card-container {
+        display: block;
+    }
+
+    .card-images {
+        width: 5rem;
+    }
+
+    #job-hunt-image {
+        width: 28rem
+    }
+
+    .wide-card-header h1 {
+        font-size: 2.4rem;
+        font-weight: 900;
+    }
+
+    .wide-card-image {
+        padding-left: 0.3rem;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4.5rem;
+    }
+
+    .wide-card-text {
+        margin-top: 0.7rem;
+    }
+
+    .wide-card-text p {
+        font-size: 0.7rem;
+    }
+
+}
+
+@media only screen and (max-width: 860px) and (min-width: 745px) {
+    .card {
+        height: 19rem;
+        margin: 1.5rem auto 0;
+        width: 50%;
+    }
+
+    .card-container {
+        display: block;
+    }
+
+    .card-images {
+        width: 5rem;
+    }
+}
+
+
+@media only screen and (max-width: 860px) and (min-width: 599px) {
+    #job-hunt-image {
+        width: 37rem
+    }
+
+    .wide-card {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .wide-card-header {
+        /* font-size: 35px; */
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .wide-card-header h1 {
+        font-size: 2.2rem;
+    }
+
+    .wide-card-image {
+        padding-left: 0.5rem;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4rem;
+    }
+
+    .wide-card-main {
+        padding-left: 0.5rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .wide-card-text {
+        margin: 3rem auto 0;
+        width: 70%;
+    }
+
+    .wide-card-text p {
+        font-size: 1.2rem;
+    }
+
+}
+
+@media only screen and (max-width: 745px) and (min-width: 600px) {
+    .card {
+        height: 17rem;
+        margin: 1.5rem auto 0;
+        width: 50%;
+    }
+
+    .card-container {
+        display: block;
+    }
+
+    .card h3 {
+        font-size: 1.5rem;
+    }
+
+    .card-images {
+        width: 7rem;
+    }
+
+    .card p {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .blockquote {
+        margin-top: 2rem;
+    }
+
+    .review {
+        display: block;
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .button-hide {
+        display: block;
+    }
+
+    .card {
+        height: 12rem;
+        margin: 1.5rem auto 0;
+        width: 50%;
+    }
+
+    .card-container {
+        display: block;
+    }
+
+    .card h3 {
+        font-size: 1.1rem;
+    }
+
+    .card-images {
+        width: 4rem;
+    }
+
+    .card p {
+        display: none;
+    }
+
+    .circle {
+        width: 41rem;
+        height: 41rem;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .fourth-section-div {
+        display: none;
+    }
+
+    #job-hunt-image {
+        width: 32rem
+    }
+
+    .line {
+        display: none;
+    }
+
+    #logo h3 {
+        font-size: 1.4rem
+    }
+
+    .navlinks {
+        display: none;
+    }
+
+    .right-arrow {
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    .rule {
+        display: none;
+    }
+
+    .search-div {
+        display: none;
+    }
+
+    .second-hidden {
+        display: none;
+    }
+
+    #second-top-div {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    #second-top-div h1 {
+        font-size: 2rem;
+        padding-top: 3rem;
+    }
+
+    .toggle-button {
+        display: block;
+        font-size: 1.2rem;
+        margin-right: 3rem;
+    }
+
+    .toggle-links li {
+        list-style: none;
+    }
+
+    .toggle-links li a {
+        color: black;
+        font-size: 1.05rem;
+        text-decoration: none;
+    }
+
+    .user-reviews {
+        display: none;
+    }
+
+    #website-first-header {
+        display: none;
+    }
+
+    #website-first-text-content p {
+        font-size: 0.99rem;
+        margin-top: 3rem;
+    }
+
+    .wide-card {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .wide-card-header {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .wide-card-header h1 {
+        font-size: 2rem;
+    }
+
+    .wide-card-image {
+        padding-left: 0.5rem;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4rem;
+    }
+
+    .wide-card-main {
+        padding-left: 0.5rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .wide-card-text {
+        margin: 3rem auto 0;
+        padding-bottom: 5rem;
+        width: 70%;
+    }
+
+    .wide-card-text p {
+        font-size: 1.05rem;
+    }
+
+}

@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.congrats-div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.congrats-image-left {
+    margin-left: 30rem;
+}
+
+.congrats-image-right {
+    margin-right: 30rem;
+}
+
+.congrats-text {
+    text-align: center;
+}
+
+.congrats-text p {
+    font-size: 1.2rem;
+}
+
+img {
+    width: 7rem;
+}
